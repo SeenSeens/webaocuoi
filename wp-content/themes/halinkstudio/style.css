@@ -1,0 +1,64 @@
+/*
+Theme Name: halinkstudio
+Theme URI: halink.vn
+Author: halink
+Author URI: halink.vn
+Description: Theme trong studio
+Version: 1.0
+Tags: basic
+Textdomain: halink
+Languages Folder: /languages
+*/
+
+/*paginate_links*/
+.paginate_links {
+  overflow: hidden;
+  text-align: center;
+  display: table;
+  margin: 30px auto;
+}
+.paginate_links .page-numbers {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  float: left;
+  margin: 0 5px 0 5px;
+  padding-top: 7px;
+  color: #007bb6;
+  border: 1px solid #007bb6;
+  margin-bottom: 5px;
+}
+.paginate_links .page-numbers:hover {
+  background: #007bb6;
+  color: #fff;
+}
+.paginate_links .page-numbers.prev,
+.paginate_links .page-numbers.next {
+  background: transparent;
+  width: auto;
+  border: none;
+}
+.paginate_links .page-numbers.prev:hover,
+.paginate_links .page-numbers.next:hover {
+  text-decoration: underline;
+  color: #007bb6;
+}
+.paginate_links .page-numbers.current {
+  background: #007bb6;
+  color: #fff;
+}
+/*End paginate_links*/
+
+.rounded-corners {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: solid 5px #A99075;
+    background: #999;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.metaslider img {
+  height: 50em !important;
+}
